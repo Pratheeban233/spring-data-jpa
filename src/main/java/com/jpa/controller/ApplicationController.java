@@ -22,7 +22,7 @@ import com.jpa.service.DoctorPatientService;
 import com.jpa.service.EmployeeService;
 
 @RestController
-//@Validated
+@Validated
 public class ApplicationController {
 
 	@Autowired
